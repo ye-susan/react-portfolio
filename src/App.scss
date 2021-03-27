@@ -3,12 +3,24 @@
 html {
   background: url(./assets/Vorderrhein.png);
   background-size: cover;
+
+  //color variables
+  --light-yellow: #f6dd9c;
+  --yellow:#f2d055;
+  --mint: #abcbc0;
+  --skyblue: #b0dde0;
+  --teal: #01b5bc;
 }
 
-h1 {
-  font-family: Nunito, Arial;
+.portfolio {
+  display: flex;  
+  position: relative;
 }
 
-p {
-  font-family: Quicksand, Arial;
+.content-area {
+  background-color: rgba(255, 255, 255, 0.664);
+  width: 650px;
+  margin: 80px auto 80px 20% ;
+  margin-left: 20%;
+  border: 2px red solid;
 }
