@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import Sidebar from './components/sidebar/sidebar';
-import SectionContainer from './components/section-container/sectioncontainer'
+import SectionContainer from './components/section-container/sectioncontainer';
 import { Chrono } from "react-chrono";
 import { TimelineItems } from "./data/timeline-items";
 import SkillsGallery from './components/skills-gallery/skills-gallery';
+import ProjectGallery from './components/proj-gallery/proj-gallery';
 import './App.scss';
 
 //icons
 import githubIcon from "./assets/icons8-github-100.png";
 import linkedinIcon from "./assets/icons8-linkedin-100.png";
 import emailIcon from "./assets/icons8-mail-100.png";
-
+import laptopIcon from "./assets/laptop.png";
+import spreadsheetIcon from "./assets/spreadsheet.png";
 class App extends Component {
   
   render(){
@@ -37,7 +39,7 @@ class App extends Component {
                 <SkillsGallery />
                 <br/>
                 
-                <p>When I'm not coding, I like to travel 🧳, hike 🏞, watch sitcoms 📺, and embroider 🧵! I also like mechanical keyboards, and programming tiny computers/robots is next on my to-do list.</p>
+                <p>When I'm not coding, I like to travel, hike, watch sitcoms, and embroider! I also like mechanical keyboards, and programming tiny computers/robots is next on my to-do list.</p>
               </div>
             }
             
@@ -58,7 +60,7 @@ class App extends Component {
                   >
                     <div className="chrono-icons">
                       <img
-                        src="https://img.icons8.com/dusk/452/computer.png"
+                        src={laptopIcon}
                         alt="computer icon"
                       />
                       <img
@@ -70,8 +72,8 @@ class App extends Component {
                         alt="HFLA logo"
                       />
                       <img
-                        src="https://img.icons8.com/plasticine/452/business-report.png"
-                        alt="business report icon"
+                        src={spreadsheetIcon}
+                        alt="spreadsheet icon"
                       />
                       <img
                         src="https://external-content.duckduckgo.com/ip3/www.stout.com.ico"
@@ -89,7 +91,7 @@ class App extends Component {
             sectionTitle="Projects"
             content={
               <div>
-               Stay tuned... 👷🏻‍♀️🚧
+                <ProjectGallery/>
               </div>
             }
           />

@@ -1,11 +1,11 @@
 import React from 'react'
-import starIcon from '../../../assets/star.svg'
-import fStarIcon from '../../../assets/star-fill.svg'
+import starIcon from '../../../assets/leaf.png'
+import fStarIcon from '../../../assets/leaf-f.png'
 export const StarsRow = ({stars}) => {
 
   const filledStars = stars
   const blankStars = 3-filledStars
-  const iconDimension = "12px"
+  const iconDimension = "15px"
 
   const filledStarImgTag = <img src={fStarIcon} width={iconDimension} height={iconDimension} alt="star icon"/>
   const starImgTag = <img src={starIcon} width={iconDimension} height={iconDimension} alt="star icon"/>
