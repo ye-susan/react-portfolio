@@ -5,7 +5,8 @@ export const ProjectGallery = ({}) => {
 
   return(
     <div>
-      <ProjectContainer/>
+      {/* <ProjectContainer/> */}
+      Under construction... stay tuned 🚧
     </div>
   )
 }
