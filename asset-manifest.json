@@ -1,32 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.08159a8e.chunk.css",
-    "main.js": "./static/js/main.70f87dfc.chunk.js",
-    "main.js.map": "./static/js/main.70f87dfc.chunk.js.map",
+    "main.css": "./static/css/main.4ebaaa60.chunk.css",
+    "main.js": "./static/js/main.24667f3b.chunk.js",
+    "main.js.map": "./static/js/main.24667f3b.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.00da25c4.js",
     "runtime-main.js.map": "./static/js/runtime-main.00da25c4.js.map",
-    "static/js/2.c3b117b0.chunk.js": "./static/js/2.c3b117b0.chunk.js",
-    "static/js/2.c3b117b0.chunk.js.map": "./static/js/2.c3b117b0.chunk.js.map",
+    "static/js/2.a7be9fd5.chunk.js": "./static/js/2.a7be9fd5.chunk.js",
+    "static/js/2.a7be9fd5.chunk.js.map": "./static/js/2.a7be9fd5.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.08159a8e.chunk.css.map": "./static/css/main.08159a8e.chunk.css.map",
-    "static/js/2.c3b117b0.chunk.js.LICENSE.txt": "./static/js/2.c3b117b0.chunk.js.LICENSE.txt",
-    "static/media/css-icon.6cb07463.png": "./static/media/css-icon.6cb07463.png",
-    "static/media/github-icon.f23f5af0.png": "./static/media/github-icon.f23f5af0.png",
-    "static/media/html-icon.bde48527.png": "./static/media/html-icon.bde48527.png",
-    "static/media/mongodb-icon.4a4f94d5.png": "./static/media/mongodb-icon.4a4f94d5.png",
-    "static/media/node-icon.1951792b.png": "./static/media/node-icon.1951792b.png",
-    "static/media/psql-icon.7b9bbd85.png": "./static/media/psql-icon.7b9bbd85.png",
-    "static/media/python-icon.943f86a9.png": "./static/media/python-icon.943f86a9.png",
-    "static/media/rails-icon.b9449c08.png": "./static/media/rails-icon.b9449c08.png",
-    "static/media/react-icon.0c398f2c.png": "./static/media/react-icon.0c398f2c.png",
-    "static/media/ruby-icon.13d5492d.png": "./static/media/ruby-icon.13d5492d.png",
-    "static/media/star-fill.2462f0e7.svg": "./static/media/star-fill.2462f0e7.svg",
-    "static/media/star.9cb3dd8e.svg": "./static/media/star.9cb3dd8e.svg"
+    "static/css/main.4ebaaa60.chunk.css.map": "./static/css/main.4ebaaa60.chunk.css.map",
+    "static/js/2.a7be9fd5.chunk.js.LICENSE.txt": "./static/js/2.a7be9fd5.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "./static/media/josh-calabrese-unsplash.6ebdaef6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.00da25c4.js",
-    "static/js/2.c3b117b0.chunk.js",
-    "static/css/main.08159a8e.chunk.css",
-    "static/js/main.70f87dfc.chunk.js"
+    "static/js/2.a7be9fd5.chunk.js",
+    "static/css/main.4ebaaa60.chunk.css",
+    "static/js/main.24667f3b.chunk.js"
   ]
 }
