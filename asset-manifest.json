@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/iyeetcode.com/static/css/main.1154fdcf.chunk.css",
-    "main.js": "/iyeetcode.com/static/js/main.81a42008.chunk.js",
-    "main.js.map": "/iyeetcode.com/static/js/main.81a42008.chunk.js.map",
-    "runtime-main.js": "/iyeetcode.com/static/js/runtime-main.fa69c188.js",
-    "runtime-main.js.map": "/iyeetcode.com/static/js/runtime-main.fa69c188.js.map",
-    "static/js/2.a7be9fd5.chunk.js": "/iyeetcode.com/static/js/2.a7be9fd5.chunk.js",
-    "static/js/2.a7be9fd5.chunk.js.map": "/iyeetcode.com/static/js/2.a7be9fd5.chunk.js.map",
-    "index.html": "/iyeetcode.com/index.html",
-    "static/css/main.1154fdcf.chunk.css.map": "/iyeetcode.com/static/css/main.1154fdcf.chunk.css.map",
-    "static/js/2.a7be9fd5.chunk.js.LICENSE.txt": "/iyeetcode.com/static/js/2.a7be9fd5.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/iyeetcode.com/static/media/josh-calabrese-unsplash.6ebdaef6.png"
+    "main.css": "/static/css/main.d17d75ec.chunk.css",
+    "main.js": "/static/js/main.a6e490ee.chunk.js",
+    "main.js.map": "/static/js/main.a6e490ee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
+    "static/js/2.a7be9fd5.chunk.js": "/static/js/2.a7be9fd5.chunk.js",
+    "static/js/2.a7be9fd5.chunk.js.map": "/static/js/2.a7be9fd5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d17d75ec.chunk.css.map": "/static/css/main.d17d75ec.chunk.css.map",
+    "static/js/2.a7be9fd5.chunk.js.LICENSE.txt": "/static/js/2.a7be9fd5.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/josh-calabrese-unsplash.6ebdaef6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fa69c188.js",
+    "static/js/runtime-main.06b5035f.js",
     "static/js/2.a7be9fd5.chunk.js",
-    "static/css/main.1154fdcf.chunk.css",
-    "static/js/main.81a42008.chunk.js"
+    "static/css/main.d17d75ec.chunk.css",
+    "static/js/main.a6e490ee.chunk.js"
   ]
 }
