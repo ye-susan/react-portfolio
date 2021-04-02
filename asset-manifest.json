@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.08159a8e.chunk.css",
+    "main.js": "/portfolio/static/js/main.051c6ac4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.051c6ac4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
+    "static/js/2.c3b117b0.chunk.js": "/portfolio/static/js/2.c3b117b0.chunk.js",
+    "static/js/2.c3b117b0.chunk.js.map": "/portfolio/static/js/2.c3b117b0.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.08159a8e.chunk.css.map": "/portfolio/static/css/main.08159a8e.chunk.css.map",
+    "static/js/2.c3b117b0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c3b117b0.chunk.js.LICENSE.txt",
+    "static/media/css-icon.6cb07463.png": "/portfolio/static/media/css-icon.6cb07463.png",
+    "static/media/github-icon.f23f5af0.png": "/portfolio/static/media/github-icon.f23f5af0.png",
+    "static/media/html-icon.bde48527.png": "/portfolio/static/media/html-icon.bde48527.png",
+    "static/media/mongodb-icon.4a4f94d5.png": "/portfolio/static/media/mongodb-icon.4a4f94d5.png",
+    "static/media/node-icon.1951792b.png": "/portfolio/static/media/node-icon.1951792b.png",
+    "static/media/psql-icon.7b9bbd85.png": "/portfolio/static/media/psql-icon.7b9bbd85.png",
+    "static/media/python-icon.943f86a9.png": "/portfolio/static/media/python-icon.943f86a9.png",
+    "static/media/rails-icon.b9449c08.png": "/portfolio/static/media/rails-icon.b9449c08.png",
+    "static/media/react-icon.0c398f2c.png": "/portfolio/static/media/react-icon.0c398f2c.png",
+    "static/media/ruby-icon.13d5492d.png": "/portfolio/static/media/ruby-icon.13d5492d.png",
+    "static/media/star-fill.2462f0e7.svg": "/portfolio/static/media/star-fill.2462f0e7.svg",
+    "static/media/star.9cb3dd8e.svg": "/portfolio/static/media/star.9cb3dd8e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43d9a0ba.js",
+    "static/js/2.c3b117b0.chunk.js",
+    "static/css/main.08159a8e.chunk.css",
+    "static/js/main.051c6ac4.chunk.js"
+  ]
+}
