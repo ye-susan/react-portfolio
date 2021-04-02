@@ -42,3 +42,30 @@ html {
 .timeline-card-content {
   min-height: none !important;
 }
+
+.timeline-item-title {
+  overflow: visible !important;
+}
+
+.show-less {
+  max-height: none !important;
+}
+
+.show-more {
+  visibility: hidden !important;
+  height: 0 !important;
+}
+
+.css-8v2xrm-MediaDetailsWrapper{
+  padding: 0 !important;
+}
+
+.css-42mkpd-TimelineItemContentWrapper {
+  min-height: none !important;
+}
+
+.using-icon {
+  img {
+    cursor: default;
+  }
+}

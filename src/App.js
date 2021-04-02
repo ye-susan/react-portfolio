@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.scss';
 import Sidebar from './components/sidebar/sidebar';
 import SectionContainer from './components/section-container/sectioncontainer'
 import { Chrono } from "react-chrono";
 import { TimelineItems } from "./data/timeline-items";
 import SkillsGallery from './components/skills-gallery/skills-gallery';
+import './App.scss';
 
 //icons
 import githubIcon from "./assets/icons8-github-100.png";
@@ -51,7 +51,7 @@ class App extends Component {
                 <div style={{ width: "100%", height: "700px" }}>
                   <Chrono
                     items={TimelineItems}
-                    mode="VERTICAL_ALTERNATING"
+                    mode="VERTICAL"
                     theme={{"primary": "#36633d", "secondary": "white", "cardBgColor": "#4c917331",  "cardForeColor":"#031d12"}}
                     scrollable
                     className="chrono-timeline"

@@ -11,11 +11,12 @@ export const SkillsGallery = () => {
     let objSize = Object.keys(dataset).length
 
     for(let i = 0; i < objSize; i++){
-      let skillName = dataset[i].skillName
-      let proficiency = dataset[i].proficiency
-      let iconLink = dataset[i].iconLink
+      let skillName = dataset[i].skillName;
+      let proficiency = dataset[i].proficiency;
+      let iconLink = dataset[i].iconLink;
+      let skillUrl = dataset[i].skillUrl;
 
-      let item = <SkillAtom stars={proficiency} skillName={skillName} iconLink={iconLink}/>
+      let item = <SkillAtom stars={proficiency} skillName={skillName} iconLink={iconLink} skillUrl={skillUrl}/>
       skillList.push(item)
     }
     return skillList;

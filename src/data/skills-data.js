@@ -19,32 +19,38 @@ export const LanguagesData = {
   0: {
     skillName: 'JavaScript',
     proficiency: '3',
-    iconLink: jsIcon
+    iconLink: jsIcon, 
+    skillUrl: 'https://www.javascript.com'
   },
   1: {
     skillName: 'Ruby',
     proficiency: '3',
-    iconLink: rubyIcon
+    iconLink: rubyIcon, 
+    skillUrl: 'https://www.ruby-lang.org/en/'
   },
   2: {
     skillName: 'HTML',
     proficiency: '3',
-    iconLink: htmlIcon
+    iconLink: htmlIcon, 
+    skillUrl: ''
   },
   3: {
     skillName: 'CSS',
     proficiency: '3',
-    iconLink: cssIcon 
+    iconLink: cssIcon, 
+    skillUrl: '' 
   },
   4: {
     skillName: 'Sass',
     proficiency: '3',
-    iconLink: sassIcon
+    iconLink: sassIcon, 
+    skillUrl: 'https://sass-lang.com'
   },
   5: {
     skillName: 'Python',
     proficiency: '1',
-    iconLink: pythonIcon 
+    iconLink: pythonIcon, 
+    skillUrl: 'https://www.python.org' 
   }
 }
 
@@ -52,36 +58,42 @@ export const TechnologiesData = {
   0: {
     skillName: 'Ruby on Rails',
     proficiency: '2',
-    iconLink: railsIcon
+    iconLink: railsIcon, 
+    skillUrl: 'https://rubyonrails.org'
   },
   1: {
     skillName: 'React',
     proficiency: '2',
-    iconLink: reactIcon 
+    iconLink: reactIcon, 
+    skillUrl: 'https://reactjs.org' 
   },
   2: {
     skillName: 'Git and Github',
     proficiency: '2',
-    iconLink: githubIcon
+    iconLink: githubIcon, 
+    skillUrl: 'https://github.com'
   },
   3: {
     skillName: 'Node.js',
     proficiency: '3',
-    iconLink: nodeIcon
+    iconLink: nodeIcon, 
+    skillUrl: 'https://nodejs.org'
   },
   4: {
     skillName: 'MongoDB',
     proficiency: '2',
-    iconLink: mongodbIcon 
+    iconLink: mongodbIcon, 
+    skillUrl: 'https://www.mongodb.com' 
   },
   5: {
     skillName: 'PostgreSQL',
     proficiency: '2',
-    iconLink: psqlIcon
+    iconLink: psqlIcon, 
+    skillUrl: 'https://www.postgresql.org'
   },
-  6: {
-    skillName: 'Figma',
-    proficiency: '3',
-    iconLink: figmaIcon
-  }
+  // 6: {
+  //   skillName: 'Figma',
+  //   proficiency: '3',
+  //   iconLink: figmaIcon
+  // }
 }
