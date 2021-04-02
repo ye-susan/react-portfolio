@@ -1,15 +1,17 @@
 @import './variables.scss';
 
 html {
-  //background: url(./assets/Vorderrhein.png);
-  //background-size: cover;
-
   //color variables
-  --light-yellow: #f6dd9c;
-  --yellow:#f2d055;
-  --mint: #abcbc0;
-  --skyblue: #b0dde0;
-  --teal: #01b5bc;
+  background-image: url('./assets/josh-calabrese-unsplash.png');  
+  background-size: cover;
+  --cream: #ece4df;
+  --green1: #9abda7;
+  --green2: #3c725b;
+  --green3: #214738;
+  --green4: #031d12;
+  --green5: #36633d;
+
+  --testgreen:#4c917331; 
 }
 
 .portfolio {
@@ -20,12 +22,14 @@ html {
 }
 
 .content-area {
-  background-color: rgba(255, 255, 255, 0.85);
+  //background-color: rgba(255, 255, 255, 0.85);
   width: 650px;
   margin: 80px auto 80px 20% ;
   margin-left: 20%;
 }
 
+
+//OVERRIDING CHRONO STYLES 
 .timeline-controls {
   margin-bottom: 60px;
   background: rgba(229, 229, 229, 0.00)!important;
@@ -33,4 +37,8 @@ html {
 
 .timeline-main-wrapper {
   width: auto!important;
+}
+
+.timeline-card-content {
+  min-height: none !important;
 }

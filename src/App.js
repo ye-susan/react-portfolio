@@ -5,6 +5,12 @@ import SectionContainer from './components/section-container/sectioncontainer'
 import { Chrono } from "react-chrono";
 import { TimelineItems } from "./data/timeline-items";
 import SkillsGallery from './components/skills-gallery/skills-gallery';
+
+//icons
+import githubIcon from "./assets/icons8-github-100.png";
+import linkedinIcon from "./assets/icons8-linkedin-100.png";
+import emailIcon from "./assets/icons8-mail-100.png";
+
 class App extends Component {
   
   render(){
@@ -46,7 +52,7 @@ class App extends Component {
                   <Chrono
                     items={TimelineItems}
                     mode="VERTICAL_ALTERNATING"
-                    theme={{"primary": "#a0cabc", "secondary": "#f6dd9c", "cardBgColor": "white",  "cardForeColor":"#109499"}}
+                    theme={{"primary": "#36633d", "secondary": "white", "cardBgColor": "#4c917331",  "cardForeColor":"#031d12"}}
                     scrollable
                     className="chrono-timeline"
                   >
@@ -94,9 +100,11 @@ class App extends Component {
             sectionTitle="Contact"
             content={
               <div>
-                <a href="https://www.linkedin.com/in/susan-ye-dev/"><img src="https://img.icons8.com/clouds/2x/linkedin.png" width="70px" height="70px" alt="linkedin icon"/></a>
-                <a href="mailto:susanye3@gmail.com"><img src="https://img.icons8.com/clouds/2x/email.png" width="70px" height="70px" alt="email icon"/></a>
-                <a href="https://github.com/ye-susan"><img src="https://img.icons8.com/clouds/2x/github.png" width="70px" height="70px" alt="github icon"/></a> 
+                {/* icons are using green3 */}
+                <a href="https://www.linkedin.com/in/susan-ye-dev/"><img src={linkedinIcon} width="70px" height="70px" alt="linkedin icon"/></a>
+                <a href="https://github.com/ye-susan"><img src={githubIcon} width="70px" height="70px" alt="github icon"/></a> 
+                <a href="mailto:susanye3@gmail.com"><img src={emailIcon} width="70px" height="70px" alt="email icon"/></a>
+                
               </div>
             }
           />
