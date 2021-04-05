@@ -1,11 +1,13 @@
 import React from "react";
 import './proj-media.scss';
 
-export const ProjectMedia = ({}) => {
+export const ProjectMedia = ({ mediaLink, mediaPosition }) => {
+   
+  let mediaStyle = (mediaPosition === 'right') ? {marginRight: "20px"} : {marginLeft: "20px"};
 
   return(
-    <div className="project-media">
-      <img src="https://user-images.githubusercontent.com/49918375/88437857-43026e80-cdbc-11ea-9b7a-74c5845e0663.png" height="auto" width="100%"></img>
+    <div className="project-media" style={mediaStyle}>
+      <img src={mediaLink} height="auto" width="100%" alt="project demo"></img>
     </div>
   )
 }

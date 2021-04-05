@@ -1,0 +1,14 @@
+.profile-photo {
+  border-radius: 50%;
+  width: 175px;
+  position: absolute;
+  left: 700px;
+  top: 50px;
+
+  .color {
+    visibility: hidden;
+  }
+  .color:hover {
+    visibility: visible;
+  }
+}

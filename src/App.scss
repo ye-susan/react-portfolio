@@ -24,12 +24,27 @@ html {
 .content-area {
   //background-color: rgba(255, 255, 255, 0.85);
   width: 650px;
-  margin: 80px auto 80px 20% ;
+  margin: 100px auto 80px 20% ;
   margin-left: 20%;
 }
 
 p {
   font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: $green2;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: nones;
+}
+a:hover{
+  color: $green1;
 }
 
 
@@ -73,3 +88,5 @@ p {
     cursor: default;
   }
 }
+
+

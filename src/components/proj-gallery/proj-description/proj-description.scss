@@ -1,3 +1,14 @@
-// .project-description {
-//   // flex: 1;
-// }
+@import '../../../variables.scss';
+
+.project-description {
+  flex: 1;
+}
+
+.project-title {
+  text-decoration: underline;
+}
+
+.project-technologies {
+  color: $green1;
+  font-weight: bold;
+}

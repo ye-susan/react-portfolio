@@ -6,6 +6,7 @@ import { TimelineItems } from "./data/timeline-items";
 import SkillsGallery from './components/skills-gallery/skills-gallery';
 import ProjectGallery from './components/proj-gallery/proj-gallery';
 import './App.scss';
+import ProfilePhoto from './components/profile-photo-container/profile-photo-container';
 
 //icons
 import githubIcon from "./assets/icons8-github-100.png";
@@ -13,7 +14,7 @@ import linkedinIcon from "./assets/icons8-linkedin-100.png";
 import emailIcon from "./assets/icons8-mail-100.png";
 import laptopIcon from "./assets/laptop.png";
 import spreadsheetIcon from "./assets/spreadsheet.png";
-import ProjectContainer from './components/proj-gallery/proj-container/proj-container';
+
 class App extends Component {
   
   render(){
@@ -22,9 +23,9 @@ class App extends Component {
       <div className="portfolio">
         
         <Sidebar/>
-        
-        <div id="home"></div>
+        <ProfilePhoto/>
 
+        <div id="home"></div>
   
         <div className="content-area">
 
@@ -41,17 +42,6 @@ class App extends Component {
                 <br/>
                 
                 <p>When I'm not coding, I like to travel, hike, watch sitcoms, and embroider! I also like mechanical keyboards, and programming tiny computers/robots is next on my to-do list.</p>
-              </div>
-            }
-          />
-
-
-          <SectionContainer
-            id="projects"
-            sectionTitle="Projects"
-            content={
-              <div>
-                <ProjectGallery/>
               </div>
             }
           />
@@ -94,6 +84,17 @@ class App extends Component {
                     </div>
                   </Chrono>
                 </div> 
+              </div>
+            }
+          />
+
+
+          <SectionContainer
+            id="projects"
+            sectionTitle="Projects"
+            content={
+              <div>
+                <ProjectGallery/>
               </div>
             }
           />
