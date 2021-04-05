@@ -13,6 +13,7 @@ import linkedinIcon from "./assets/icons8-linkedin-100.png";
 import emailIcon from "./assets/icons8-mail-100.png";
 import laptopIcon from "./assets/laptop.png";
 import spreadsheetIcon from "./assets/spreadsheet.png";
+import ProjectContainer from './components/proj-gallery/proj-container/proj-container';
 class App extends Component {
   
   render(){
@@ -42,8 +43,19 @@ class App extends Component {
                 <p>When I'm not coding, I like to travel, hike, watch sitcoms, and embroider! I also like mechanical keyboards, and programming tiny computers/robots is next on my to-do list.</p>
               </div>
             }
-            
           />
+
+
+          <SectionContainer
+            id="projects"
+            sectionTitle="Projects"
+            content={
+              <div>
+                <ProjectGallery/>
+              </div>
+            }
+          />
+
 
           <SectionContainer
             id="timeline"
@@ -86,16 +98,6 @@ class App extends Component {
             }
           />
 
-          <SectionContainer
-            id="projects"
-            sectionTitle="Projects"
-            content={
-              <div>
-                <ProjectGallery/>
-              </div>
-            }
-          />
-
 
           <SectionContainer
             id="contact"
@@ -110,11 +112,9 @@ class App extends Component {
               </div>
             }
           />
-          
-        </div>
-        
-      </div>
 
+        </div>
+      </div>
     );
   }   
 };
