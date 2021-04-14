@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a1ea0aa.chunk.css",
-    "main.js": "/static/js/main.7c821b7f.chunk.js",
-    "main.js.map": "/static/js/main.7c821b7f.chunk.js.map",
+    "main.css": "/static/css/main.5d5b2a69.chunk.css",
+    "main.js": "/static/js/main.b70b9b49.chunk.js",
+    "main.js.map": "/static/js/main.b70b9b49.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.06b5035f.js",
     "runtime-main.js.map": "/static/js/runtime-main.06b5035f.js.map",
     "static/js/2.43a92d3a.chunk.js": "/static/js/2.43a92d3a.chunk.js",
     "static/js/2.43a92d3a.chunk.js.map": "/static/js/2.43a92d3a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8a1ea0aa.chunk.css.map": "/static/css/main.8a1ea0aa.chunk.css.map",
+    "static/css/main.5d5b2a69.chunk.css.map": "/static/css/main.5d5b2a69.chunk.css.map",
     "static/js/2.43a92d3a.chunk.js.LICENSE.txt": "/static/js/2.43a92d3a.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/josh-calabrese-unsplash.6ebdaef6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.06b5035f.js",
     "static/js/2.43a92d3a.chunk.js",
-    "static/css/main.8a1ea0aa.chunk.css",
-    "static/js/main.7c821b7f.chunk.js"
+    "static/css/main.5d5b2a69.chunk.css",
+    "static/js/main.b70b9b49.chunk.js"
   ]
 }
