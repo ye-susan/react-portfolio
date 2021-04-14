@@ -14,6 +14,17 @@ html {
   --testgreen:#4c917331; 
 }
 
+footer {
+  text-align: center;
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  color: var(--green4);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 5px;
+}
+
 .portfolio {
   display: flex;  
   position: relative;

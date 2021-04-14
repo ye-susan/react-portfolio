@@ -17,9 +17,9 @@ import spreadsheetIcon from "./assets/spreadsheet.png";
 
 class App extends Component {
   
-  render(){
-    
+  render(){    
     return (
+      <>
       <div className="portfolio">
         
         <Sidebar/>
@@ -116,6 +116,11 @@ class App extends Component {
 
         </div>
       </div>
+      <footer>
+        <p>© 2021 Susan Ye. All rights reserved.</p>
+        <p>Icons from Icons8, Background Image from Unsplash</p>
+      </footer> 
+      </>
     );
   }   
 };
