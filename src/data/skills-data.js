@@ -32,12 +32,12 @@ export const LanguagesData = {
     iconLink: '/icons/sass-icon.png',
     skillUrl: 'https://sass-lang.com'
   },
-  5: {
-    skillName: 'Python',
-    proficiency: '1',
-    iconLink: '/icons/python-icon.png',
-    skillUrl: 'https://www.python.org' 
-  }
+  // 5: {
+  //   skillName: 'Python',
+  //   proficiency: '1',
+  //   iconLink: '/icons/python-icon.png',
+  //   skillUrl: 'https://www.python.org' 
+  // }
 }
 
 export const TechnologiesData = {

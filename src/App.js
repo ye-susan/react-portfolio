@@ -35,13 +35,17 @@ class App extends Component {
             content={
               <div>
                 
-                <p>Hi! I'm Susan, a self-taught developer excited about fullstack development.  Here's what I'm good at:</p>
+                <p>Hi! I'm Susan, a self-taught developer excited about full stack development. 
+                <br/><br/>
+                I'm passionate about supporting effective teams, and have created a set of webpage templates and written comprehensive documentation to quickly train and onboard a growing network of volunteer engineers for Hack for LA. I'm also results-oriented and have delivered flexible and functional React components to production, to serve nearly a million Wefunder users. 
+                <br/><br/>
+                Being a DIY craftsman has led me to become super resourceful and product-driven. Code is my new medium to create and express myself, and here's what's in my toolkit 🛠: </p>
 
                 <br/>
                 <SkillsGallery />
                 <br/>
                 
-                <p>When I'm not coding, I like to travel, hike, watch sitcoms, and embroider! I also like mechanical keyboards, and programming tiny computers/robots is next on my to-do list.</p>
+                <p>When I'm not coding, you can find me hiking, watching sitcoms, embroidering, or exploring new cities near and far. I also like mechanical keyboards, and programming tiny computers/robots is next on my to-do list.</p>
               </div>
             }
           />
